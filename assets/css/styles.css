@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #181818;
+    color: #ddd;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #4CAF50;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #b0b0b0;
+}
+
+.search-section {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.search-section input[type="text"] {
+    padding: 10px;
+    width: 60%;
+    font-size: 1em;
+    margin-right: 10px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background-color: #333;
+    color: #ddd;
+}
+
+.search-section button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-section button:hover {
+    background-color: #45a049;
+}
+
+.no-results {
+    color: #ff6666;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.applicant-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.applicant-list th, .applicant-list td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #444;
+}
+
+.applicant-list th {
+    background-color: #333;
+    color: #fff;
+}
+
+.applicant-list tr:hover {
+    background-color: #444;
+}
+
+.applicant-list td {
+    color: #ccc;
+}
+
+.applicant-list a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.applicant-list a:hover {
+    text-decoration: underline;
+}
+
+.create-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.create-link a {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.create-link a:hover {
+    background-color: #218838;
+}
